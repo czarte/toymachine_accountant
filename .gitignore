@@ -1,7 +1,6 @@
 /target
 output.csv
 output*.csv
-input.csv
 .agents
 .idea
 src/README.md
