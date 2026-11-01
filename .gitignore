@@ -4,7 +4,6 @@ output*.csv
 input.csv
 .agents
 .idea
-tests/fixtures/
 src/README.md
 Rust Async CSV Transaction Processor.md
 tools/

@@ -107,7 +107,7 @@ async fn pipeline_reports_missing_file_as_io_error() {
 #[test]
 fn binary_prints_report_for_project_input_csv() {
     let output = binary()
-        .arg(PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("input.csv"))
+        .arg(fixture("input.csv"))
         .output()
         .expect("binary runs");
 
